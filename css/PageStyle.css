@@ -1,0 +1,462 @@
+/* NavBar And HomePage Banner*/ 
+body {
+font: 400 15px 'Roboto', sans-serif;
+line-height: 1.8;
+color: #818181;
+background: #F9F9FF;
+}
+ul,li{
+list-style-type: none;
+}
+h4 {
+font-size: 19px;
+line-height: 1.375em;
+color: #303030;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.container-fluid {
+padding: 60px 50px;
+}
+.mTop-2{
+margin-top: 20px;
+}
+.mTop-5{
+margin-top: 50px;
+}
+.color5{
+color: purple;
+}
+.bg-grey {
+background-color: #EFEFFE;
+}
+.bannerBg{
+background:url('images/Banner_Image.png') no-repeat;
+width:100%;
+height:900px;
+background-size: cover; 
+}
+a.navbar-brand>img{
+  height: 60px;
+}
+/* Button ==============*/
+.themeBtn {
+background: #fff;
+color: #000 !important;
+display: inline-block;
+font-size: 14px;
+font-weight: 500;
+height: 50px;
+line-height: 0.8;
+padding: 18px 30px;
+text-transform: capitalize;
+border-radius: 50px;
+letter-spacing: 0.5px;
+border:0px !important;
+cursor:pointer;
+}
+a:hover{
+color: #ffffff;
+text-decoration:none;
+}
+.themeBtn:hover {
+background: #0D13D7;
+color: #fff !important;
+box-shadow: 0 10px 25px -2px rgba(255, 92, 0, 0.6);
+}
+span.explore>a{
+color: #fff;
+margin-left: 15px;
+}
+span.explore>a>i{
+margin-left: 10px;
+}
+
+/*NavBar=====================*/
+
+.navbar li a, .navbar .navbar-brand {
+color: #000 !important;
+}
+.navbar-brand{
+font-size: 38px !important;
+font-weight: bold;
+color: #000;
+}
+.navbar-nav{
+margin: 20px 10px;
+}
+a.navbar-brand>img{
+display: inline-block;
+}
+a.navbar-brand>span{
+color: #0D13D7;
+}
+.navbar-default .navbar-toggle {
+border-color: transparent;
+color: #fff !important;
+}
+ul.navbar-nav>li>a{
+color: #fff;
+font-size: 16px;
+text-align: left;
+text-transform: capitalize;
+font-family: 'Poppins', sans-serif;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #fff !important;
+  background: none !important;
+  border-bottom: 3px solid #0D13D7;
+  padding-bottom: 0px !important;
+}
+.bannerText{
+padding: 200px 25px;
+}
+.bannerText h1{
+font-size: 38px;
+color: #fff;
+text-transform: capitalize;
+}
+.bannerText p{
+font-size: 13px;
+text-transform: capitalize;
+color: #fff;
+}
+.imgiPhone1{
+transform: scale(1.2);
+}
+.imgiPhone2{
+transform: scale(2.1);
+}
+.imgiPhone3{
+transform: scale(1.2);
+}
+ /* NavBar And HomePage Banner End*/ 
+
+ /*=====================thumbnail=======================*/
+
+.thumbnail {
+padding: 0 0 15px 0;
+border: none;
+border-radius: 0;
+background: rgb(251 251 251);
+  box-shadow: 0 10px 25px -2px rgb(171 165 161 / 60%);
+}
+.thumbnail h3{
+color: #000;
+font-weight: bold;
+}
+.thumbnail p{
+font-size: 14px;
+text-transform: capitalize;
+padding: 15px 30px;
+  text-align: left;
+}
+.thumbnail img {
+width: 145px;
+height: 206px;
+margin-bottom: 10px;
+}
+
+.carousel-control.right, .carousel-control.left {
+background-image: none;
+color: #333697;
+}
+.carousel-indicators li {
+border-color: #333697;
+}
+.carousel-indicators li.active {
+background-color: #333697;
+}
+.item h4 {
+font-size: 19px;
+line-height: 1.375em;
+font-weight: 400;
+font-style: italic;
+margin: 70px 0;
+}
+.item span {
+font-style: normal;
+}
+/*=====================thumbnail End=======================*/
+
+/* =======================Projects==========================*/
+.whyBg{
+background:url('images/style.png') no-repeat;
+width:600px;
+height:520px;
+background-size: cover; 
+}
+.whyBg>img{
+height: 600px;
+  position: relative;
+  left: 50%;
+}
+.portfolioBg{
+background:url('images/style.png') no-repeat;
+background-position: right;
+  background-size: contain;
+  width: 100%;
+}
+.aboutText>h2{
+   font-size: 40px;
+  text-transform: capitalize;
+  color: #000;
+   font-family: 'Poppins', sans-serif;
+  margin-bottom: 30px;
+}
+.aboutText>p{
+font-size: 14px;
+color: #707070;
+font-weight: 300;
+text-transform: capitalize;
+}
+
+.inline>img{
+width: 50px;
+height: 83px;
+}
+.projects:hover{
+background: rgb(251 251 251);
+  box-shadow: 0 10px 25px -2px rgb(171 165 161 / 60%);
+  border-radius: 100px 8px 101px 8px;
+}
+.projects > .inline{
+display: inline-block;
+}
+.inline>p{
+font-size: 30px;
+color: #1453FF;
+margin: 0px;
+position: absolute;
+top: 0px;
+font-family: 'Poppins', sans-serif !important;
+}
+.inline>span{
+font-size: 16px;
+color: #1453FF;
+margin: 0px;
+position: absolute;
+top: 40px;
+font-family: 'Poppins', sans-serif !important;
+}
+.inline>p:after{
+ content: '+';
+  font-size: 35px;
+  position: absolute;
+  right: 0px;
+  left: 48px;
+  top: -5px;
+}
+/* =======================Project End==========================*/
+
+/* =======================Footer==========================*/
+footer .glyphicon {
+font-size: 20px;
+margin-bottom: 20px;
+color: #1453FF;
+}
+footer{
+background-color: #EBEBF8;
+}
+footer a{
+color: #818181;
+text-align: left;
+}
+footer a:hover{
+color: #000;
+}
+.star i {
+font-size: 20px;
+}
+.btn-warning {
+  color: #fff706 !important;
+border:none !important;
+  background-color: #f0ad4e;
+}
+
+.btn-warning.active, .btn-warning:active, .open>.dropdown-toggle.btn-warning{
+background:none !important;
+outline: none !important;
+border:none;
+}
+.Reviewtext p{
+font-size: 16px;
+font-family: 'Poppins' sans-serif;
+}
+.Reviewtext>p>strong{
+color: #000;
+margin:0;
+}
+
+.social >i.fa {
+display: inline-block;
+border-radius: 60px;
+box-shadow: 0px 0px 2px #888;
+padding: 0.5em 0.6em;
+margin-right: 15px;
+
+}
+
+.social>span{
+font-size: 24px;
+margin: 0 20px;
+font-family: 'Poppins' sans-serif;
+}
+.links>ul>li{
+text-align: left;
+color: #8A8A8A;
+text-transform: capitalize;
+}
+
+.contactBg{
+background-color: #333697;
+border-radius: 16px;
+height: 140px;
+position: relative;
+top: 41px;
+}
+.text1>h3{
+font-size: 20px;
+color: #fff;
+font-family: 'Poppins' sans-serif;
+}
+.text1>p{
+font-size: 12px;
+font-weight: 100;
+color: #fff;
+font-family: 'Poppins' sans-serif;
+}
+form .btn-send{
+position: absolute;
+  top: 22%;
+  left: 60%;
+  border-radius: 50px;
+  background: #333697;
+  color: #fff;
+  width: 30%;
+}
+input[type=text] {
+  
+  padding: 12px 20px;
+  margin: 9px 0;
+  box-sizing: border-box;
+  border-radius: 30px;
+  outline: none;
+  width: 100%;
+  height:20%;
+  border:1px solid #7c7b7b;
+}
+input[type=text]:hover {
+border:1px solid #000;
+transition: 6s;
+}
+form{
+position: relative;
+  top: 30px;
+  left: 115px;
+}
+.slideanim {visibility:hidden;}
+.slide {
+animation-name: slide;
+-webkit-animation-name: slide;
+animation-duration: 1s;
+-webkit-animation-duration: 1s;
+visibility: visible;
+}
+@keyframes slide {
+0% {
+  opacity: 0;
+  transform: translateY(70%);
+} 
+100% {
+  opacity: 1;
+  transform: translateY(0%);
+}
+}
+@-webkit-keyframes slide {
+0% {
+  opacity: 0;
+  -webkit-transform: translateY(70%);
+} 
+100% {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+}
+}
+/*==================Media Query================================*/
+ @media screen and (max-width: 768px) {
+  .imgiPhone1 , .imgiPhone2, .imgiPhone3{
+    transform: scale(0);
+  }
+  .bannerText{
+    padding: 0;
+  }
+  .navbar-toggle .icon-bar{
+    background-color: #fff;
+  }
+    .top_header{
+      background-color: #948acf;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+      border-color: #ccc;
+    }
+
+  }
+  @media screen and (max-width: 480px) {
+    .imgiPhone1 , .imgiPhone2, .imgiPhone3{
+    transform: scale(0.9);
+  }
+  .navbar-brand{
+    font-size: 24px !important;
+  }
+  a.navbar-brand>img{
+    height: 30px;
+  }
+  .bannerBg {
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+}
+.bannerText h1{
+  font-size: 25px;
+  }
+  .bannerText{
+    margin-top: 40px;
+  }
+  .whyBg{
+     height: 580px;    
+  }
+  .whyBg>img{
+    position: relative;
+    left: 0%;
+  }
+  .inline>span{
+    font-size: 14px;
+  }
+  .portfolioBg {
+     background-position: initial;
+    background-size: cover;
+    width: 100%;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 30%;
+    font-size: 30px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+  right: 15%;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+  left: 15%;
+}
+form {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.contactBg {
+    height: 190px;
+    position: relative;
+    top: 50px;
+}
+}
